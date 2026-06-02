@@ -2,7 +2,7 @@
 
 ![fetch mcp logo](logo.jpg)
 
-[![npm version](https://img.shields.io/npm/v/mcp-fetch-server.svg)](https://www.npmjs.com/package/mcp-fetch-server)
+[![npm version](https://img.shields.io/npm/v/fetch-arwaky.svg)](https://www.npmjs.com/package/fetch-arwaky)
 
 An MCP server for fetching web content in multiple formats — HTML, JSON, plain text, Markdown, readable article content, and YouTube transcripts.
 
@@ -45,7 +45,7 @@ Add to your MCP client configuration:
   "mcpServers": {
     "fetch": {
       "command": "npx",
-      "args": ["mcp-fetch-server"]
+      "args": ["fetch-arwaky"]
     }
   }
 }
@@ -60,7 +60,7 @@ npx mcp-fetch <command> <url> [flags]
 Or install globally:
 
 ```bash
-npm install -g mcp-fetch-server
+npm install -g fetch-arwaky
 mcp-fetch <command> <url> [flags]
 ```
 
@@ -125,7 +125,7 @@ Example with a custom limit:
   "mcpServers": {
     "fetch": {
       "command": "npx",
-      "args": ["mcp-fetch-server"],
+      "args": ["fetch-arwaky"],
       "env": {
         "DEFAULT_LIMIT": "50000"
       }

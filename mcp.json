@@ -3,7 +3,7 @@
     "fetch": {
       "command": "node",
       "args": [
-        "/home/raka/mcp-servers/fetch-mcp/dist/index.js"
+        "/home/raka/mcp-arwaky/fetch-arwaky/dist/index.js"
       ]
     }
   }

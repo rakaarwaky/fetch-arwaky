@@ -1,21 +1,21 @@
 {
-  "name": "mcp-fetch-server",
+  "name": "fetch-arwaky",
   "version": "1.1.6",
   "description": "MCP server and CLI for fetching web content as HTML, Markdown, plain text, JSON, or YouTube transcripts",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "zcaceres (@zachcaceres zach.dev)",
+  "author": "rakaarwaky <arwaky90@gmail.com>",
   "contributors": [
     "pwilkin (ilintar@gmail.com)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zcaceres/fetch-mcp.git"
+    "url": "git+https://github.com/rakaarwaky/fetch-arwaky.git"
   },
-  "homepage": "https://github.com/zcaceres/fetch-mcp#readme",
+  "homepage": "https://github.com/rakaarwaky/fetch-arwaky#readme",
   "bugs": {
-    "url": "https://github.com/zcaceres/fetch-mcp/issues"
+    "url": "https://github.com/rakaarwaky/fetch-arwaky/issues"
   },
   "files": [
     "dist",
@@ -31,7 +31,7 @@
     "publish:npm": "bun run build && bun test && npm publish"
   },
   "bin": {
-    "mcp-fetch-server": "dist/index.js",
+    "fetch-arwaky": "dist/index.js",
     "mcp-fetch": "dist/cli.js"
   },
   "engines": {
