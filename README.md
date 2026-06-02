@@ -1,4 +1,4 @@
-# Fetch MCP Server
+# Fetch Arwaky Server
 
 ![fetch mcp logo](logo.jpg)
 
@@ -54,20 +54,20 @@ Add to your MCP client configuration:
 ### As a CLI
 
 ```bash
-npx mcp-fetch <command> <url> [flags]
+npx fetch-arwaky <command> <url> [flags]
 ```
 
 Or install globally:
 
 ```bash
 npm install -g fetch-arwaky
-mcp-fetch <command> <url> [flags]
+fetch-arwaky <command> <url> [flags]
 ```
 
 ## CLI Usage
 
 ```
-mcp-fetch <command> <url> [flags]
+fetch-arwaky <command> <url> [flags]
 ```
 
 ### Commands
@@ -96,19 +96,19 @@ mcp-fetch <command> <url> [flags]
 
 ```bash
 # Fetch a page as markdown
-mcp-fetch markdown https://example.com
+fetch-arwaky markdown https://example.com
 
 # Extract article content without boilerplate
-mcp-fetch readable https://example.com/blog/post
+fetch-arwaky readable https://example.com/blog/post
 
 # Get a YouTube transcript in Spanish
-mcp-fetch youtube https://www.youtube.com/watch?v=dQw4w9WgXcQ --lang es
+fetch-arwaky youtube https://www.youtube.com/watch?v=dQw4w9WgXcQ --lang es
 
 # Fetch with a length limit
-mcp-fetch html https://example.com --max-length 10000
+fetch-arwaky html https://example.com --max-length 10000
 
 # Fetch through a proxy
-mcp-fetch json https://api.example.com/data --proxy http://proxy:8080
+fetch-arwaky json https://api.example.com/data --proxy http://proxy:8080
 ```
 
 ## Environment Variables
